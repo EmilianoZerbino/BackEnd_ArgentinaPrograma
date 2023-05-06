@@ -21,7 +21,7 @@ import com.portfolio.portfolio.service.IUsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin(origins ="http://localhost:4200")
+@CrossOrigin(origins ="http://localhost:4200 , https://frontend-argentinaprogra-2afbb.web.app")
 public class UsuarioController {
 
 	@Autowired

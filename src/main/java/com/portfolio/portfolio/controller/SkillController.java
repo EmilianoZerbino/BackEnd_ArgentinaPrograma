@@ -18,7 +18,7 @@ import com.portfolio.portfolio.service.ISkillService;
 
 @RestController
 @RequestMapping("/skills")
-@CrossOrigin(origins ="http://localhost:4200")
+@CrossOrigin(origins ="http://localhost:4200 , https://frontend-argentinaprogra-2afbb.web.app")
 public class SkillController {
 
 	@Autowired
