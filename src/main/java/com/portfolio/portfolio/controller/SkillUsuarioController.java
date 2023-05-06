@@ -22,7 +22,7 @@ import com.portfolio.portfolio.service.IUsuarioService;
 
 @RestController
 @RequestMapping("/skillsUsuarios")
-@CrossOrigin(origins ="http://localhost:4200 , https://frontend-argentinaprogra-2afbb.web.app")
+@CrossOrigin(origins = "*")
 public class SkillUsuarioController {
 
 	@Autowired

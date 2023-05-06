@@ -18,7 +18,7 @@ import com.portfolio.portfolio.service.ITecnologiaService;
 
 @RestController
 @RequestMapping("/tecnologias")
-@CrossOrigin(origins ="http://localhost:4200 , https://frontend-argentinaprogra-2afbb.web.app")
+@CrossOrigin(origins = "*")
 public class TecnologiaController {
 
 	@Autowired

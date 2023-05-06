@@ -18,7 +18,7 @@ import com.portfolio.portfolio.service.IEstadoAcademicoService;
 
 @RestController
 @RequestMapping("/estado_academico")
-@CrossOrigin(origins ="http://localhost:4200 , https://frontend-argentinaprogra-2afbb.web.app")
+@CrossOrigin(origins = "*")
 public class EstadoAcademicoController {
 
 	@Autowired

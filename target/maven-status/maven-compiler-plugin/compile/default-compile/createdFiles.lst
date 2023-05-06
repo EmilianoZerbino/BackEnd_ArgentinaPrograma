@@ -29,7 +29,6 @@ com\portfolio\portfolio\model\Skill.class
 com\portfolio\portfolio\model\Especialidad.class
 com\portfolio\portfolio\service\ISkillService.class
 com\portfolio\portfolio\service\IEncabezadoService.class
-com\portfolio\portfolio\WebConfig.class
 com\portfolio\portfolio\service\SkillUsuarioService.class
 com\portfolio\portfolio\controller\TrabajoController.class
 com\portfolio\portfolio\service\TrabajoService.class

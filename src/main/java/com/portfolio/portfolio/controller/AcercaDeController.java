@@ -20,8 +20,7 @@ import com.portfolio.portfolio.service.IUsuarioService;
 
 
 @RestController
-@RequestMapping("/acerca_de")
-@CrossOrigin(origins ="http://localhost:4200 , https://frontend-argentinaprogra-2afbb.web.app")
+@RequestMapping("/acerca_de")@CrossOrigin(origins = "*")
 public class AcercaDeController {
 
 	@Autowired
